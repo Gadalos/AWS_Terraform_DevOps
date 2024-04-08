@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        AWS_DEFAULT_REGION = 'us-west2'
-        TERRAFORM_EXECUTABLE = '/home/jenkins/terraform/terraform'
+        AWS_DEFAULT_REGION = 'us-west-2'
+        TERRAFORM_EXECUTABLE = '/usr/bin/terraform'
         CREDENTIALS_ID = 'AWS_ACCESS_KEY_ID'
         SECRET_CREDENTIALS_ID = 'AWS_SECRET_ACCESS_KEY'
     }
